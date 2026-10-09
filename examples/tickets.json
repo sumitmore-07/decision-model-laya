@@ -1,0 +1,202 @@
+[
+  {
+    "ticket_id": "TKT-001",
+    "text": "Hi, we were billed twice for March. Please refund today or we cancel.",
+    "expected": {
+      "issue_type": "billing",
+      "urgent": true,
+      "mentions_refund": true,
+      "customer_angry": true
+    }
+  },
+  {
+    "ticket_id": "TKT-002",
+    "text": "I think my invoice for April is wrong, the seat count shows 12 but we only have 10 users. Could you check when you get a chance?",
+    "expected": {
+      "issue_type": "billing",
+      "urgent": false,
+      "mentions_refund": false,
+      "customer_angry": false
+    }
+  },
+  {
+    "ticket_id": "TKT-003",
+    "text": "Your system charged my card again after I cancelled. This is unacceptable. I want my money back immediately and I am disputing this with my bank.",
+    "expected": {
+      "issue_type": "billing",
+      "urgent": true,
+      "mentions_refund": true,
+      "customer_angry": true
+    }
+  },
+  {
+    "ticket_id": "TKT-004",
+    "text": "Can you send me a PDF copy of last month's receipt for our accounting team? Thanks.",
+    "expected": {
+      "issue_type": "billing",
+      "urgent": false,
+      "mentions_refund": false,
+      "customer_angry": false
+    }
+  },
+  {
+    "ticket_id": "TKT-005",
+    "text": "The export button throws a 500 error every time I click it. Started this morning.",
+    "expected": {
+      "issue_type": "technical",
+      "urgent": false,
+      "mentions_refund": false,
+      "customer_angry": false
+    }
+  },
+  {
+    "ticket_id": "TKT-006",
+    "text": "Your API has been down for 3 hours and our production checkout is broken. We are losing sales every minute. Fix this NOW or we are leaving.",
+    "expected": {
+      "issue_type": "technical",
+      "urgent": true,
+      "mentions_refund": false,
+      "customer_angry": true
+    }
+  },
+  {
+    "ticket_id": "TKT-007",
+    "text": "Dashboard charts load slowly, about 10 seconds. Not blocking, just wanted to report it.",
+    "expected": {
+      "issue_type": "technical",
+      "urgent": false,
+      "mentions_refund": false,
+      "customer_angry": false
+    }
+  },
+  {
+    "ticket_id": "TKT-008",
+    "text": "Webhooks stopped firing since yesterday's update. Our integration is dead and I'm furious, this is the third outage this month. I expect a refund for the downtime.",
+    "expected": {
+      "issue_type": "technical",
+      "urgent": true,
+      "mentions_refund": true,
+      "customer_angry": true
+    }
+  },
+  {
+    "ticket_id": "TKT-009",
+    "text": "I can't log in. The password reset email never arrives. Can someone help?",
+    "expected": {
+      "issue_type": "account",
+      "urgent": false,
+      "mentions_refund": false,
+      "customer_angry": false
+    }
+  },
+  {
+    "ticket_id": "TKT-010",
+    "text": "Please add my colleague Priya as an admin on our workspace.",
+    "expected": {
+      "issue_type": "account",
+      "urgent": false,
+      "mentions_refund": false,
+      "customer_angry": false
+    }
+  },
+  {
+    "ticket_id": "TKT-011",
+    "text": "I need to change the email address on my account from my old company address to this one.",
+    "expected": {
+      "issue_type": "account",
+      "urgent": false,
+      "mentions_refund": false,
+      "customer_angry": false
+    }
+  },
+  {
+    "ticket_id": "TKT-012",
+    "text": "It would be great if you added dark mode to the dashboard. Thanks!",
+    "expected": {
+      "issue_type": "feature_request",
+      "urgent": false,
+      "mentions_refund": false,
+      "customer_angry": false
+    }
+  },
+  {
+    "ticket_id": "TKT-013",
+    "text": "Any plans to support exporting reports to Excel? We currently copy and paste everything.",
+    "expected": {
+      "issue_type": "feature_request",
+      "urgent": false,
+      "mentions_refund": false,
+      "customer_angry": false
+    }
+  },
+  {
+    "ticket_id": "TKT-014",
+    "text": "Please add SSO via Okta. It's a hard requirement for our security team before we can renew next quarter.",
+    "expected": {
+      "issue_type": "feature_request",
+      "urgent": false,
+      "mentions_refund": false,
+      "customer_angry": false
+    }
+  },
+  {
+    "ticket_id": "TKT-015",
+    "text": "Your support rep was rude and dismissive on the phone yesterday. I am very disappointed with how I was treated.",
+    "expected": {
+      "issue_type": "complaint",
+      "urgent": false,
+      "mentions_refund": false,
+      "customer_angry": true
+    }
+  },
+  {
+    "ticket_id": "TKT-016",
+    "text": "This is the worst service I have ever used. Nobody replies, nothing works, and I am done. Cancel everything and refund this year.",
+    "expected": {
+      "issue_type": "complaint",
+      "urgent": true,
+      "mentions_refund": true,
+      "customer_angry": true
+    }
+  },
+  {
+    "ticket_id": "TKT-017",
+    "text": "The onboarding was confusing and the docs are out of date. Not happy, but I'm sure you'll fix it.",
+    "expected": {
+      "issue_type": "complaint",
+      "urgent": false,
+      "mentions_refund": false,
+      "customer_angry": true
+    }
+  },
+  {
+    "ticket_id": "TKT-018",
+    "text": "What is the difference between the Pro and Business plans?",
+    "expected": {
+      "issue_type": "general_inquiry",
+      "urgent": false,
+      "mentions_refund": false,
+      "customer_angry": false
+    }
+  },
+  {
+    "ticket_id": "TKT-019",
+    "text": "Do you offer an annual discount if we pay up front?",
+    "expected": {
+      "issue_type": "general_inquiry",
+      "urgent": false,
+      "mentions_refund": false,
+      "customer_angry": false
+    }
+  },
+  {
+    "ticket_id": "TKT-020",
+    "text": "Where can I find your data processing agreement and security certifications?",
+    "expected": {
+      "issue_type": "general_inquiry",
+      "urgent": false,
+      "mentions_refund": false,
+      "customer_angry": false
+    }
+  }
+]
