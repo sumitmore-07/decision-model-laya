@@ -179,3 +179,37 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Environment / secrets (keep the example file)
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Claude Code local state
+.claude/settings.local.json
+.claude/scratchpad/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Model weights, datasets, experiment outputs
+*.gguf
+*.safetensors
+*.pt
+*.onnx
+data/raw/
+data/processed/
+models/
+mlruns/
+wandb/
+
+# Generated benchmark output (machine-specific; numbers live in the README)
+benchmarks/results.json
+
+# Local Hugging Face / torch caches
+.cache/
+hf_cache/
+huggingface/

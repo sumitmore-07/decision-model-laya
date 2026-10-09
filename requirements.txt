@@ -1,0 +1,14 @@
+# Python 3.12 (laya requires >=3.10; 3.14 is too new for torch wheels)
+# Install: pip install -r requirements.txt
+
+# Decision model (pulls in torch, transformers, huggingface_hub; Apache-2.0)
+laya==0.4.1
+
+# API
+fastapi==0.143.0
+uvicorn==0.54.0
+pydantic==2.14.0
+python-dotenv==1.2.4
+
+# Benchmark: Groq (llama-3.3-70b) comparison
+groq==1.7.0
