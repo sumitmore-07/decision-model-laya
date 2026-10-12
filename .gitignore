@@ -213,3 +213,6 @@ benchmarks/results.json
 .cache/
 hf_cache/
 huggingface/
+
+# Claude Code project instructions (local only)
+CLAUDE.md
